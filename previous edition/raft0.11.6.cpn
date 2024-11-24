@@ -776,8 +776,8 @@ product INT * INT * AppendEntryReqQueue timed;</layout>
           <layout>val EmptyAppendReq : AppendEntryReq = 
 (0, 0, (0, 0, EmptyClientReq), 0, 0, 0);</layout>
         </ml>
-        <ml id="ID1415431562">val dispatcherConcurrency :INT = 256;
-          <layout>val dispatcherConcurrency :INT = 256;</layout>
+        <ml id="ID1415431562">val dispatcherConcurrency :INT = 64;
+          <layout>val dispatcherConcurrency :INT = 64;</layout>
         </ml>
         <ml id="ID1412675968">val clusterSize : INT = 3;
           <layout>val clusterSize : INT = 3;</layout>
@@ -5639,7 +5639,7 @@ Entry Response</text>
                y="7.000000"/>
         <marking x="0.000000"
                  y="0.000000"
-                 hidden="true">
+                 hidden="false">
           <snap snap_id="0"
                 anchor.horizontal="0"
                 anchor.vertical="0"/>
@@ -36864,8 +36864,8 @@ applyTime)</text>
             </zorder>
           </cpnsheet>
           <cpnsheet id="ID1412448235"
-                    panx="930.341094"
-                    pany="-334.226562"
+                    panx="-191.658906"
+                    pany="-630.226562"
                     zoom="1.000000"
                     instance="ID1412446743">
             <zorder>
@@ -37975,7 +37975,7 @@ end</layout>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
         </IndexNode>
-        <IndexNode expanded="true">
+        <IndexNode expanded="false">
           <IndexNode expanded="true"/>
           <IndexNode expanded="true"/>
           <IndexNode expanded="true"/>
@@ -38115,7 +38115,7 @@ end</layout>
           <IndexNode expanded="true"/>
           <IndexNode expanded="true"/>
         </IndexNode>
-        <IndexNode expanded="false">
+        <IndexNode expanded="true">
           <IndexNode expanded="true"/>
           <IndexNode expanded="true"/>
         </IndexNode>
